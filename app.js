@@ -18,6 +18,7 @@ const API = 'http://localhost:2000/'
 
 app.use(express.static(__dirname + '/'));
 app.use('/img', express.static('img'));
+app.use('/upload', express.static('upload'));
 
 
 var caro = require('./routes/caro');
